@@ -1,0 +1,4 @@
+chroma_db/
+.venv/
+__pycache__/
+resume.pdf
