@@ -3,8 +3,7 @@ from langchain_ollama import ChatOllama
 def get_llm():
     llm = ChatOllama(
         model="qwen3:0.6b",
-        temperature=0.7,
-        num_predict=512
+        temperature=0.7
     )
 
     return llm

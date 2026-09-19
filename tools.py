@@ -63,5 +63,5 @@ def get_resume_data(query:str) -> str:
     response = vector_store.similarity_search(query)
     return response
 
-response = get_resume_data.invoke("skills")
-print(response)
+# response = get_resume_data.invoke("skills")
+# print(response)
